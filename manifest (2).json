@@ -1,0 +1,18 @@
+{
+  "name": "RCC & SMD Resistor Calculator",
+  "short_name": "ResistorCalc",
+  "description": "Professional Android electronics tool for Resistor Color Codes, SMD codes, Ohm's Law, and AI Photo Scanner.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/resized-512x512 (1).png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
