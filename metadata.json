@@ -1,0 +1,6 @@
+{
+  "name": "RCC & SMD Resistor Calculator",
+  "description": "Android-ready electronics tool for Resistor Color Codes (3, 4, 5, 6 bands), SMD Chip codes, Reverse Value Lookup, Ohm's Law, and AI Resistor Photo Scanning.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
