@@ -8,7 +8,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="description" content="Android Electronics Utility: Resistor Color Code, SMD Chip Code, Reverse Lookup, Ohm's Law & AI Photo Resistor Scanner" />
-    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Changed absolute path /manifest.json to relative path ./manifest.json -->
+    <link rel="manifest" href="./manifest.json" />
 
     <title>RCC & SMD Resistor Calculator - Android Edition</title>
   </head>
@@ -18,7 +20,8 @@
     <script>
       if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js')
+          // Changed absolute path /service-worker.js to relative path ./service-worker.js
+          navigator.serviceWorker.register('./service-worker.js')
             .then(reg => console.log('ServiceWorker registered:', reg.scope))
             .catch(err => console.log('ServiceWorker registration failed:', err));
         });
@@ -26,4 +29,3 @@
     </script>
   </body>
 </html>
-
